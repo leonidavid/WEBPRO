@@ -1,0 +1,56 @@
+- [Home](/README.md)
+- English
+  - [Multiboot support](en/multiboot.md)
+  - EDK2
+    - [Overview](en/edk2/Overview.md)
+    - [SM8150 Porting (deprecated)](en/edk2/sm8150-port.md)
+    - [Porting](en/edk2/port.md)
+  - Mu-SM8150pkg
+    - [Porting guide](en/sm8150pkg/tutorial/README)
+      - [Welcome](en/sm8150pkg/tutorial/README)
+      - [Prerequisites and bootloader binary extraction](en/sm8150pkg/tutorial/1_Prerequisites_Bootloader_binary_extraction.md)
+      - [Build environment setup](en/sm8150pkg/tutorial/2_Build_environment_setup.md)
+      - [Build instructions](en/sm8150pkg/tutorial/3_Build_instructions.md)
+    - Next steps
+      - Patching firmware binaries for working USB FN and buttons
+        - [Preparing the files and workspace](en/sm8150pkg/tutorial/4_Preparing_files_workspace.md)
+        - [Analyzing and patching firmware binaries](en/sm8150pkg/tutorial/5_Analyzing_patching_firmware_binaries.md)
+        - [Building UEFI with patched firmware binaries](en/sm8150pkg/tutorial/6_Building_with_patched_firmware_binaries.md)
+  - Linux
+    - [Cmdline](en/linux/cmdline.md)
+  - Devices
+    - [SDM845](en/devices/sdm845/status.md)
+      - [dipper (Xiaomi MI8)](en/devices/sdm845/dipper/status.md)
+      - [polaris (Xiaomi MIX2S)](en/devices/sdm845/polaris/status.md)
+      - [beryllium (Xiaomi Poco F1)](en/devices/sdm845/beryllium/status.md)
+      - [enchilada (OnePlus 6)](en/devices/sdm845/enchilada/status.md)
+      - [fajita (OnePlus 6T)](en/devices/sdm845/fajita/status.md)
+    - MSM8998
+      - [sagit (Xiaomi MI6)](en/devices/msm8998/sagit/status.md)
+  - Windows
+    - [Installation Guide](en/windows/Installation-guide.md)
+    - [Device Support Status](en/windows/state-frame.html)
+    - [Driver logging](en/windows/logging.md)
+    - [Touch](en/windows/touch.md)
+* Chinese
+  - [多启动支持](zh/multiboot.md)
+  - EDK2
+    - [预览](zh/edk2/Overview.md)
+    - [SM8150移植](zh/edk2/sm8150-port.md)
+    - [移植](zh/edk2/port.md)
+  - Linux
+    - [命令行](zh/linux/cmdline.md)
+  - 设备
+    - [SDM845](zh/devices/sdm845/status.md)
+      - [dipper (小米8)](zh/devices/sdm845/dipper/status.md)
+      - [polaris (小米MIX2S)](zh/devices/sdm845/polaris/status.md)
+      - [beryllium (小米Poco F1)](zh/devices/sdm845/beryllium/status.md)
+      - [enchilada (一加6)](zh/devices/sdm845/enchilada/status.md)
+      - [fajita (一加6T)](zh/devices/sdm845/fajita/status.md)
+    - MSM8998
+      - [sagit (小米6)](zh/devices/msm8998/sagit/status.md)
+  - Windows
+    - [安装指南](zh/windows/installation-guide.md)
+    - [设备支持状态](zh/windows/state-frame.html)
+    - [获取驱动日志](zh/windows/logging.md)
+    - [触摸](zh/windows/touch.md)
